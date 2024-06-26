@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#main {
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  margin: 20px;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+
+  align-items: center;
+}
+
+#image {
+  width: 50%;
+  height: 0;
+  padding-top: 66.67%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://cdn.dribbble.com/userupload/12426546/file/original-c1141e517b6528ed41375d95dfea6a21.jpg?resize=1024x768&vertical=center");
+}
+
+#form {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  gap: 12px;
+}
+
+#form h1 {
+  position: absolute;
+  top: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+.ri-close-large-line {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.from-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.from-control label {
+  margin-bottom: 3px;
+}
+
+#form input {
+  padding: 10px 50px;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.from-control i {
+  position: absolute;
+  left: 16px;
+  top: 30px;
+  font-size: 20px;
+}
+
+#form .forgot {
+  display: block;
+  color: rgb(173, 114, 4);
+  margin-left: 150px;
+}
+
+#form button {
+  width: 300px;
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(243, 76, 76);
+  border: none;
+  border-radius: 10px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#form #line {
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+#form #line span {
+  background: #fff;
+  padding: 0 10px;
+  color: gray;
+}
+
+#icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding-top: 16px;
+}
+
+#icons img {
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#singup {
+  padding-top: 30px;
+}
+
+#singup a {
+  color: gray;
+}
